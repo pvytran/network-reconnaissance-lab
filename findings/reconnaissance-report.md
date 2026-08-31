@@ -10,7 +10,7 @@ The assessment was conducted from a Kali Linux virtual machine against an Ubuntu
 **Assessment IP:** `192.168.56.105`
 **Target Machine:** Ubuntu Linux
 **Target IP:** `192.168.56.104`
-**Lab Network:** `192.168.56.0/24`
+**Lab Network:** `192.168.56.1/24`
 
 ---
 
@@ -45,10 +45,10 @@ The successful connectivity test confirmed that the assessment machine could com
 The lab network was scanned using:
 
 ```bash
-nmap -sn 192.168.56.0/24
+nmap -sn 192.168.56.1/24
 ```
 
-Host discovery was used to identify active systems on the `192.168.56.0/24` network before performing more targeted reconnaissance.
+Host discovery was used to identify active systems on the `192.168.56.1/24` network before performing more targeted reconnaissance.
 
 ---
 
