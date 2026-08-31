@@ -9,7 +9,7 @@ The project demonstrates a basic reconnaissance workflow including network confi
 > **Lab environment:** VirtualBox
 > **Assessment machine:** Kali Linux (`192.168.56.105`)
 > **Target machine:** Ubuntu Linux (`192.168.56.104`)
-> **Network:** `192.168.56.0/24`
+> **Network:** `192.168.56.1/24`
 
 ---
 
