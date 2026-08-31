@@ -109,7 +109,7 @@ This verified network communication between the assessment machine and the targe
 The lab network was checked for active hosts:
 
 ```bash
-nmap -sn 192.168.56.0/24
+nmap -sn 192.168.56.1/24
 ```
 
 This scan was used to identify live systems without performing a traditional TCP port scan.
